@@ -21,7 +21,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center">
-            <div className="relative w-40 h-40 md:w-48 md:h-48">
+            <div className="relative w-50 h-50 md:w-58 md:h-58">
               <Image src="/logo.png" alt="Blue Pearl Digital Printers" fill className="object-contain" />
             </div>
           </Link>
