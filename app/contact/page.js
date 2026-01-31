@@ -55,11 +55,11 @@ export default function Contact() {
                   <span className="font-semibold">Thank you! We'll get back to you soon.</span>
                 </div>
               ) : (
-                <<form
-  action="https://formspree.io/f/mykjqllk"
-  method="POST"
-  className="space-y-6"
->
+                <form
+                action="https://formspree.io/f/mykjqllk"
+                method="POST"
+                className="space-y-6"
+                  >
                   <div>
                     <label htmlFor="name" className="block text-sm font-semibold mb-2 text-gray-700">
                       Name *
