@@ -19,6 +19,29 @@ export default function RootLayout({ children }) {
   rel="noopener noreferrer"
   className="whatsapp-float"
 >
+  💬 Chat on WhatsApp
+</a>
+      <body className={inter.className}>
+        <Navbar />
+        <main>{children}</main>
+        <Footer />
+    <a
+  href="https://wa.me/919980166221"
+  target="_blank"
+  rel="noopener noreferrer"
+  style={{
+    display: "inline-block",
+    backgroundColor: "#25D366",
+    color: "#ffffff",
+    padding: "14px 24px",
+    borderRadius: "6px",
+    fontWeight: "bold",
+    textDecoration: "none",
+    marginTop: "16px"
+  }}
+>
+  Chat on WhatsApp
+</a>
       </body>
     </html>
   )
